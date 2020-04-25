@@ -1,3 +1,4 @@
+-- Link to schema: https://app.quickdatabasediagrams.com/#/d/OfOR3v
 CREATE TABLE "departments" (
     "dept_no" varchar(5)   NOT NULL,
     "dept_name" varchar(30)   NOT NULL,
@@ -32,7 +33,8 @@ CREATE TABLE "dept_manager" (
     "to_date" date   NOT NULL
 );
 
--- Link to schema: https://app.quickdatabasediagrams.com/#/d/OfOR3v
+
+
 CREATE TABLE "salaries" (
     "emp_no" int   NOT NULL,
     "salary" int   NOT NULL,
